@@ -16,7 +16,7 @@ body {
   font-family: "Quicksand", sans-serif;
   background: var(--mainGrey);
   color: var(--mainBlack);
-  margin: 0 3rem;
+  margin: 3rem 3rem;
 }
 
 .code {
