@@ -1,13 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Link } from "gatsby"
 import PostList from "../components/PostList"
 import { graphql, useStaticQuery } from "gatsby"
 
 const getPosts = graphql`
   {
     allMdx(sort: { fields: frontmatter___date, order: DESC }) {
-      totalCount
       edges {
         node {
           frontmatter {
